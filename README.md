@@ -11,7 +11,7 @@ Maven
 
 ## MVN Package (Groovy)
 [MVNRepository](http://mvnrepository.com/) / [Geb-Core](http://mvnrepository.com/artifact/org.gebish/geb-core/0.12.2)
-```
+```groovy
 import groovy.grape.Grape
 Grape.grab(group: 'org.gebish', module: 'geb-core', version: '0.12.2')
 Grape.grab(group: 'org.seleniumhq.selenium', module: 'selenium-firefox-driver', version: '2.46.0')
